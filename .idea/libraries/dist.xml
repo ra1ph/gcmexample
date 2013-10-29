@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dist">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/contrib/gcm-client/dist/gcm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/contrib/gcm-client/dist/gcm-src.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
