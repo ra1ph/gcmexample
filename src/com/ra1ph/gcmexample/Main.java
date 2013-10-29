@@ -26,7 +26,7 @@ import java.io.IOException;
 
 public class Main extends Activity implements OnRequestResultListener {
     private static final String TAG = "myLogs";
-    String SENDER_ID = "50225923956";
+    public static String SENDER_ID = "50225923956";
     private static final String PREFS = "prefs";
     private static final String IS_SENDED = "is_sended";
 
@@ -46,9 +46,9 @@ public class Main extends Activity implements OnRequestResultListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        register(this);
-
         Parse.initialize(this, appId, clientKey);
+
+        register(this);
 
         text = (TextView) findViewById(R.id.text);
         prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
@@ -56,6 +56,7 @@ public class Main extends Activity implements OnRequestResultListener {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(registrationId == null )register(Main.this);
                 ParseQuery<ParseObject> query = ParseQuery.getQuery("test");
                 query.getInBackground("i9pn40lR2z", new GetCallback<ParseObject>() {
                     @Override

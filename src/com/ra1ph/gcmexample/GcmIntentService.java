@@ -14,6 +14,8 @@ import com.parse.GetCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  * Created with IntelliJ IDEA.
@@ -28,7 +30,20 @@ public class GcmIntentService extends IntentService {
     NotificationCompat.Builder builder;
 
     public GcmIntentService() {
-        super("GcmIntentService");
+        //super("GcmIntentService");
+        super(Main.SENDER_ID);
+    }
+
+    @Override
+    public void onStart(Intent intent, int startId) {
+        super.onStart(intent, startId);    //To change body of overridden methods use File | Settings | File Templates.
+        Log.d("myLog", "Service start!");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();    //To change body of overridden methods use File | Settings | File Templates.
+        Log.d("myLog", "Service destroy!");
     }
 
     @Override
@@ -48,11 +63,11 @@ public class GcmIntentService extends IntentService {
              */
             if (GoogleCloudMessaging.
                     MESSAGE_TYPE_SEND_ERROR.equals(messageType)) {
-                sendNotification("Send error: " + extras.toString());
+                sendNotification("Send error: " + extras.toString(), "Error");
             } else if (GoogleCloudMessaging.
                     MESSAGE_TYPE_DELETED.equals(messageType)) {
                 sendNotification("Deleted messages on server: " +
-                        extras.toString());
+                        extras.toString(),"Deleted");
                 // If it's a regular GCM message, do some work.
             } else if (GoogleCloudMessaging.
                     MESSAGE_TYPE_MESSAGE.equals(messageType)) {
@@ -69,9 +84,9 @@ public class GcmIntentService extends IntentService {
                 // Post notification of received message.
                 ParseQuery<ParseObject> query = ParseQuery.getQuery("test");
                 try {
-                    ParseObject obj = query.get("test");
+                    ParseObject obj = query.get("i9pn40lR2z");
                     boolean test = obj.getBoolean("test");
-                    if (test) sendNotification("Received: " + extras.toString());
+                    if (test) sendNotification(extras.getString("message"),extras.getString("title"));
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
@@ -85,22 +100,22 @@ public class GcmIntentService extends IntentService {
     // Put the message into a notification and post it.
     // This is just one simple example of what you might choose to do with
     // a GCM message.
-    private void sendNotification(String msg) {
+    private void sendNotification(String msg, String title) {
         mNotificationManager = (NotificationManager)
                 this.getSystemService(Context.NOTIFICATION_SERVICE);
 
         PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
                 new Intent(this, HtmlActivity.class), 0);
 
-        NotificationCompat.Builder mBuilder =
-                new NotificationCompat.Builder(this)
-                        .setSmallIcon(R.drawable.ic_launcher)
-                        .setContentTitle("GCM Notification")
-                        .setStyle(new NotificationCompat.BigTextStyle()
-                                .bigText(msg))
-                        .setContentText(msg);
+            NotificationCompat.Builder mBuilder =
+                    new NotificationCompat.Builder(this)
+                            .setSmallIcon(R.drawable.ic_launcher)
+                            .setContentTitle(title)
+                            .setStyle(new NotificationCompat.BigTextStyle()
+                                    .bigText(msg))
+                            .setContentText(msg);
 
-        mBuilder.setContentIntent(contentIntent);
-        mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
+            mBuilder.setContentIntent(contentIntent);
+            mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
     }
 }
