@@ -23,28 +23,27 @@
       </GlobalState>
     </option>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d94dde31-d481-488b-baeb-d148fe891a7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jsoup-1.7.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java" afterPath="$PROJECT_DIR$/contrib/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/ra1ph/gcmexample/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/ra1ph/gcmexample/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gcmexample.iml" afterPath="$PROJECT_DIR$/gcmexample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/google-play-services_lib/gen/com/google/android/gms/Manifest.java" afterPath="$PROJECT_DIR$/contrib/google-play-services_lib/gen/com/google/android/gms/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/ra1ph/gcmexample/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/ra1ph/gcmexample/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/google-play-services_lib/gen/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/contrib/google-play-services_lib/gen/com/google/android/gms/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/ra1ph/gcmexample/R.java" afterPath="$PROJECT_DIR$/gen/com/ra1ph/gcmexample/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gcmexample.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/views/LauncherViewPager.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524032739" ignored="false" />
     <file path="/Main.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383046719352" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383054172047" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383104846582" ignored="false" />
     <file path="/PushReceiver.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034935816" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383051852344" ignored="false" />
     <file path="/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382521344723" ignored="false" />
-    <file path="/Dummy.txt" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383054193842" ignored="false" />
+    <file path="/Dummy.txt" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383064043175" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/content/DatabaseHelper.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524011780" ignored="false" />
     <file path="/LauncherViewPager.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382514261531" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/settings/WallpaperResetActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382530889699" ignored="false" />
@@ -71,7 +70,7 @@
     <file path="$PROJECT_DIR$/../gcmtest/src/com/ra1ph/macexample/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034101360" ignored="false" />
     <file path="$PROJECT_DIR$/../gcmtest/gen/com/ra1ph/macexample/R.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034290744" ignored="false" />
     <file path="/WiFiRequest.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034385684" ignored="false" />
-    <file path="/HtmlActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383053806859" ignored="false" />
+    <file path="/HtmlActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383064703042" ignored="false" />
     <file path="/html_activity.xml" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034684489" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/PortraitIfPhoneActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383038359911" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/content/LimitedTimeContent.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383038877652" ignored="false" />
@@ -108,43 +107,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/PushReceiver.java" line="30" class="com.ra1ph.gcmexample.PushReceiver" package="com.ra1ph.gcmexample">
         <option name="ENABLED" value="true" />
@@ -191,7 +153,22 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="62" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="95" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="98" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -207,6 +184,43 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -220,14 +234,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="102" column="13" selection-start="4232" selection-end="4232" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1944#3501#0" expanded="true" />
-                <element signature="e#2233#3474#0" expanded="true" />
-                <element signature="e#3455#3456#0" expanded="true" />
-                <element signature="e#3489#3490#0" expanded="true" />
-                <element signature="e#3608#4232#0" expanded="true" />
-                <element signature="e#4217#4218#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -253,7 +260,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.5907336">
+            <state line="15" column="72" selection-start="961" selection-end="961" vertical-scroll-proportion="0.24952015">
               <folding />
             </state>
           </provider>
@@ -261,13 +268,13 @@
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="-10.88">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -283,13 +290,20 @@
       <file leaf-file-name="HtmlActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="106" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0">
+            <state line="58" column="70" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1167#2066#0" expanded="true" />
-                <element signature="e#1276#2031#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
-                <element signature="e#2055#2056#0" expanded="true" />
+                <element signature="e#2597#2865#0" expanded="true" />
+                <element signature="e#2838#2839#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/AsyncTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -378,6 +392,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -512,8 +528,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,15 +543,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jsoup-1.7.2.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_DEVICE" value="FA34CW103743" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_PROCESS" value="com.ra1ph.gcmexample" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -721,30 +735,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6702254" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3262159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.6737841" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6702254" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -820,32 +834,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="22" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/DownloadListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="17" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/OnRequestResultListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/RequestResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -856,13 +857,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/html_activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="37" selection-start="391" selection-end="391" vertical-scroll-proportion="0.3825">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/ApiRequest.java">
@@ -894,13 +895,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="-10.88">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java">
@@ -910,42 +911,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Android/android-sdk/sources/android-17/android/os/Environment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="404" column="25" selection-start="15806" selection-end="15806" vertical-scroll-proportion="0.33291456">
+        <state line="102" column="13" selection-start="4232" selection-end="4232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-17/android/app/AlertDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="13" selection-start="4232" selection-end="4232" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1944#3501#0" expanded="true" />
-            <element signature="e#2233#3474#0" expanded="true" />
-            <element signature="e#3455#3456#0" expanded="true" />
-            <element signature="e#3489#3490#0" expanded="true" />
-            <element signature="e#3608#4232#0" expanded="true" />
-            <element signature="e#4217#4218#0" expanded="true" />
-          </folding>
+        <state line="486" column="23" selection-start="18402" selection-end="18402" vertical-scroll-proportion="0.33204633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="106" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0">
+        <state line="58" column="70" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1167#2066#0" expanded="true" />
-            <element signature="e#1276#2031#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2597#2865#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.5907336">
+        <state line="15" column="72" selection-start="961" selection-end="961" vertical-scroll-proportion="0.24952015">
           <folding />
         </state>
       </provider>
@@ -1026,7 +1025,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Parse-1.3.5</last-edited>
+          <last-edited>jsoup-1.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
