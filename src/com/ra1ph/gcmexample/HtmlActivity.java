@@ -1,10 +1,12 @@
 package com.ra1ph.gcmexample;
 
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.provider.MediaStore;
 import android.view.View;
 import android.webkit.WebView;
 import org.jsoup.Jsoup;
@@ -79,6 +81,14 @@ public class HtmlActivity extends Activity {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        addImageGallery(f);
+    }
+
+    private void addImageGallery( File file ) {
+        ContentValues values = new ContentValues();
+        values.put(MediaStore.Images.Media.DATA, file.getAbsolutePath());
+        values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg"); // setar isso
+        getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
     }
 
     public static void CopyStream(InputStream is, OutputStream os) {
