@@ -28,7 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d94dde31-d481-488b-baeb-d148fe891a7d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,7 +39,7 @@
     <file path="/PushReceiver.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034935816" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383051852344" ignored="false" />
     <file path="/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382521344723" ignored="false" />
-    <file path="/Dummy.txt" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383141292237" ignored="false" />
+    <file path="/Dummy.txt" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383142048527" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/content/DatabaseHelper.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524011780" ignored="false" />
     <file path="/LauncherViewPager.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382514261531" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/settings/WallpaperResetActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382530889699" ignored="false" />
@@ -140,6 +139,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/PushReceiver.java" line="30" class="com.ra1ph.gcmexample.PushReceiver" package="com.ra1ph.gcmexample">
         <option name="ENABLED" value="true" />
@@ -186,7 +186,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="64" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="82" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -202,7 +202,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -239,10 +238,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="31" selection-start="214" selection-end="214" vertical-scroll-proportion="0.13051823">
+            <state line="19" column="59" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -269,11 +268,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HtmlActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HtmlActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="90" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="62" column="29" selection-start="2513" selection-end="2513" vertical-scroll-proportion="0.50098234">
+              <folding>
+                <element signature="e#2670#2938#0" expanded="true" />
+                <element signature="e#2911#2912#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -325,8 +327,8 @@
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GCMReceiver.java" />
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" />
-        <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" />
       </list>
     </option>
   </component>
@@ -362,7 +364,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,6 +498,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -513,15 +515,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="DEBUGGABLE_DEVICE" value="FA34CW103743" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="DEBUGGABLE_DEVICE" value="FA34CW103743" />
     <property name="DEBUGGABLE_PROCESS" value="com.ra1ph.gcmexample" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -724,8 +726,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.6737841" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.6749703" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32502964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -844,13 +846,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/html_activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="37" selection-start="391" selection-end="391" vertical-scroll-proportion="0.3825">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/ApiRequest.java">
@@ -882,13 +884,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://D:/Android/android-sdk/sources/android-17/android/os/Environment.java">
@@ -910,17 +912,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="90" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.0">
+        <state line="19" column="59" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="214" selection-end="214" vertical-scroll-proportion="0.13051823">
-          <folding />
+        <state line="62" column="29" selection-start="2513" selection-end="2513" vertical-scroll-proportion="0.50098234">
+          <folding>
+            <element signature="e#2670#2938#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

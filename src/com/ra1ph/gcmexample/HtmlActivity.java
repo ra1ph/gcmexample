@@ -1,8 +1,10 @@
 package com.ra1ph.gcmexample;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -52,6 +54,22 @@ public class HtmlActivity extends Activity {
                             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                         }
                         return null;
+                    }
+
+                    @Override
+                    protected void onPostExecute(Void aVoid) {
+                        super.onPostExecute(aVoid);    //To change body of overridden methods use File | Settings | File Templates.
+                        AlertDialog.Builder builder = new AlertDialog.Builder(HtmlActivity.this);
+                        builder.setTitle("Save");
+                        builder.setMessage("Picture has been saved in Gallery");
+                        builder.setPositiveButton("Ok",new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                        AlertDialog dialog = builder.create();
+                        dialog.show();
                     }
                 }.execute();
             }
