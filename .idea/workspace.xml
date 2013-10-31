@@ -23,12 +23,9 @@
       </GlobalState>
     </option>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d94dde31-d481-488b-baeb-d148fe891a7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" afterPath="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gcmexample.iws" />
@@ -39,7 +36,7 @@
     <file path="/PushReceiver.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034935816" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383051852344" ignored="false" />
     <file path="/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382521344723" ignored="false" />
-    <file path="/Dummy.txt" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383142268714" ignored="false" />
+    <file path="/Dummy.txt" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383199187398" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/content/DatabaseHelper.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524011780" ignored="false" />
     <file path="/LauncherViewPager.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382514261531" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/src/com/appgranula/kidslauncher/settings/WallpaperResetActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382530889699" ignored="false" />
@@ -61,7 +58,7 @@
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/res/xml/device_preferences.xml" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524032739" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/res/layout/help_overlay.xml" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524032739" ignored="false" />
     <file path="$PROJECT_DIR$/../PlayPad-Kids-Launcher/res/layout/syncpreference.xml" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1382524032739" ignored="false" />
-    <file path="/GcmIntentService.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383050209458" ignored="false" />
+    <file path="/GcmIntentService.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383199587542" ignored="false" />
     <file path="/fragment.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383053141183" ignored="false" />
     <file path="$PROJECT_DIR$/../gcmtest/src/com/ra1ph/macexample/MainActivity.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034101360" ignored="false" />
     <file path="$PROJECT_DIR$/../gcmtest/gen/com/ra1ph/macexample/R.java" changelist="d94dde31-d481-488b-baeb-d148fe891a7d" time="1383034290744" ignored="false" />
@@ -103,6 +100,68 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/PushReceiver.java" line="30" class="com.ra1ph.gcmexample.PushReceiver" package="com.ra1ph.gcmexample">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" line="86" class="com.ra1ph.gcmexample.GcmIntentService" package="com.ra1ph.gcmexample">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" line="70" class="com.ra1ph.gcmexample.GcmIntentService" package="com.ra1ph.gcmexample">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="82" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -140,68 +199,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/PushReceiver.java" line="30" class="com.ra1ph.gcmexample.PushReceiver" package="com.ra1ph.gcmexample">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" line="84" class="com.ra1ph.gcmexample.GcmIntentService" package="com.ra1ph.gcmexample">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" line="68" class="com.ra1ph.gcmexample.GcmIntentService" package="com.ra1ph.gcmexample">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" line="82" class="com.ra1ph.gcmexample.HtmlActivity" package="com.ra1ph.gcmexample">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -229,10 +226,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GcmIntentService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GcmIntentService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="53" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.0">
+            <state line="115" column="60" selection-start="4839" selection-end="4839" vertical-scroll-proportion="0.5444015">
               <folding />
             </state>
           </provider>
@@ -249,13 +246,13 @@
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="59" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -268,14 +265,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HtmlActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HtmlActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.42772278">
-              <folding>
-                <element signature="e#2670#2938#0" expanded="true" />
-                <element signature="e#2911#2912#0" expanded="true" />
-              </folding>
+            <state line="73" column="39" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -326,9 +320,9 @@
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/PushReceiver.java" />
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GCMReceiver.java" />
-        <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java" />
       </list>
     </option>
   </component>
@@ -515,15 +509,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_DEVICE" value="FA34CW103743" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_PROCESS" value="com.ra1ph.gcmexample" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -690,7 +684,11 @@
       <created>1383142273736</created>
       <updated>1383142273736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add dialog again">
+      <created>1383142393976</created>
+      <updated>1383142393976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -715,9 +713,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3985765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -725,7 +723,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -910,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="53" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="59" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0">
@@ -926,11 +917,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/HtmlActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.42772278">
-          <folding>
-            <element signature="e#2670#2938#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-          </folding>
+        <state line="73" column="39" selection-start="3093" selection-end="3093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ra1ph/gcmexample/GcmIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="60" selection-start="4839" selection-end="4839" vertical-scroll-proportion="0.5444015">
+          <folding />
         </state>
       </provider>
     </entry>
