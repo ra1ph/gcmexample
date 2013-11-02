@@ -5,6 +5,8 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
@@ -64,7 +66,7 @@ public class GcmIntentService extends IntentService {
             } else if (GoogleCloudMessaging.
                     MESSAGE_TYPE_DELETED.equals(messageType)) {
                 sendNotification("Deleted messages on server: " +
-                        extras.toString(),"Deleted");
+                        extras.toString(), "Deleted");
                 // If it's a regular GCM message, do some work.
             } else if (GoogleCloudMessaging.
                     MESSAGE_TYPE_MESSAGE.equals(messageType)) {
@@ -84,7 +86,7 @@ public class GcmIntentService extends IntentService {
                 try {
                     ParseObject obj = query.get("i9pn40lR2z");
                     boolean test = obj.getBoolean("test");
-                    if (test) sendNotification(extras.getString("message"),extras.getString("title"));
+                    if (test) sendNotification(extras.getString("message"), extras.getString("title"));
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
@@ -104,16 +106,17 @@ public class GcmIntentService extends IntentService {
 
         PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
                 new Intent(this, HtmlActivity.class), 0);
+        Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.ic_launcher)
+                        .setContentTitle(title)
+                        .setSound(alarmSound)
+                        .setStyle(new NotificationCompat.BigTextStyle()
+                                .bigText(msg))
+                        .setContentText(msg);
 
-            NotificationCompat.Builder mBuilder =
-                    new NotificationCompat.Builder(this)
-                            .setSmallIcon(R.drawable.ic_launcher)
-                            .setContentTitle(title)
-                            .setStyle(new NotificationCompat.BigTextStyle()
-                                    .bigText(msg))
-                            .setContentText(msg);
-
-            mBuilder.setContentIntent(contentIntent);
-            mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
+        mBuilder.setContentIntent(contentIntent);
+        mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
     }
 }

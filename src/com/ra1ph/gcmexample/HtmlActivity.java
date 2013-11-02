@@ -2,11 +2,13 @@ package com.ra1ph.gcmexample;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.provider.MediaStore;
 import android.view.View;
 import android.webkit.WebView;
 import org.jsoup.Jsoup;
@@ -48,7 +50,6 @@ public class HtmlActivity extends Activity {
                             Element img = el.first();
                             String urlImg = el.attr("src");
                             mDownloadAndSave(URL_BASE + urlImg);
-
                         } catch (IOException e) {
                             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                         }
@@ -98,6 +99,14 @@ public class HtmlActivity extends Activity {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        addImageGallery(f);
+    }
+
+    private void addImageGallery( File file ) {
+        ContentValues values = new ContentValues();
+        values.put(MediaStore.Images.Media.DATA, file.getAbsolutePath());
+        values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg"); // setar isso
+        getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
     }
 
     public static void CopyStream(InputStream is, OutputStream os) {
