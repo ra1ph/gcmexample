@@ -36,9 +36,9 @@ public class Main extends Activity implements OnRequestResultListener {
     Button send;
     private WiFiRequest request;
     SharedPreferences prefs;
-    private String appId = "tD8QzW1SZ7OhSGQHsDBZGDoNNqMzlK6Mf81pUayw";
-    private String clientKey = "g5nH8uzAd1lW5yN7oI1ixMGzb3OLsbfopc8cphlc";
-    private String os,device,macAddr,uuid;
+    public static final String appId = "tD8QzW1SZ7OhSGQHsDBZGDoNNqMzlK6Mf81pUayw";
+    public static final String clientKey = "g5nH8uzAd1lW5yN7oI1ixMGzb3OLsbfopc8cphlc";
+    private String os, device, macAddr, uuid;
     private TextView text;
     private String registrationId;
 
@@ -52,39 +52,33 @@ public class Main extends Activity implements OnRequestResultListener {
 
         text = (TextView) findViewById(R.id.text);
         prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
-        send = (Button) findViewById(R.id.send_button);
-        send.setOnClickListener(new View.OnClickListener() {
+        if (registrationId == null) register(Main.this);
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("test");
+        query.getInBackground("i9pn40lR2z", new GetCallback<ParseObject>() {
             @Override
-            public void onClick(View view) {
-                if(registrationId == null )register(Main.this);
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("test");
-                query.getInBackground("i9pn40lR2z", new GetCallback<ParseObject>() {
-                    @Override
-                    public void done(ParseObject parseObject, ParseException e) {
-                        boolean test = parseObject.getBoolean("test");
-                        if (test) {
-                            if (true) {
-                                WifiManager wifiMan = (WifiManager) Main.this.getSystemService(
-                                        Context.WIFI_SERVICE);
-                                WifiInfo wifiInf = wifiMan.getConnectionInfo();
-                                macAddr = wifiInf.getMacAddress();
+            public void done(ParseObject parseObject, ParseException e) {
+                boolean test = parseObject.getBoolean("test");
+                if (test) {
+                    if (true) {
+                        WifiManager wifiMan = (WifiManager) Main.this.getSystemService(
+                                Context.WIFI_SERVICE);
+                        WifiInfo wifiInf = wifiMan.getConnectionInfo();
+                        macAddr = wifiInf.getMacAddress();
 
-                                uuid = Settings.Secure.getString(Main.this.getContentResolver(),Settings.Secure.ANDROID_ID);
-                                os = "Android " + android.os.Build.VERSION.RELEASE;
+                        uuid = Settings.Secure.getString(Main.this.getContentResolver(), Settings.Secure.ANDROID_ID);
+                        os = "Android " + android.os.Build.VERSION.RELEASE;
 
-                                device = Build.MANUFACTURER + " " + Build.MODEL;
+                        device = Build.MANUFACTURER + " " + Build.MODEL;
 
-                                request = new WiFiRequest(Main.this, Main.this, macAddr
-                                        , uuid, os, device,registrationId);
-                                request.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                            }
-                        }
+                        request = new WiFiRequest(Main.this, Main.this, macAddr
+                                , uuid, os, device, registrationId);
+                        request.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
                     }
-                });
+                }
             }
-
         });
     }
+
 
     public void register(final Context context) {
         if (checkPlayServices()) {
@@ -101,7 +95,7 @@ public class Main extends Activity implements OnRequestResultListener {
                     return null;  //To change body of implemented methods use File | Settings | File Templates.
                 }
             }.execute();
-        }else{
+        } else {
             Log.i(TAG, "No valid Google Play Services APK found.");
         }
     }
@@ -131,7 +125,7 @@ public class Main extends Activity implements OnRequestResultListener {
     public void onSuccess(RequestResult result) {
         if (result.getRequestType() == RequestResult.WIFI) {
             //Toast.makeText(this, result.getResponse(), Toast.LENGTH_SHORT).show();
-            ((TextView)findViewById(R.id.reply)).setText(result.getResponse());
+            ((TextView) findViewById(R.id.reply)).setText(result.getResponse());
             StringBuilder builder = new StringBuilder();
             builder.append("Android ID: ");
             builder.append(uuid);

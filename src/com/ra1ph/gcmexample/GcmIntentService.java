@@ -10,10 +10,7 @@ import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
-import com.parse.GetCallback;
-import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
+import com.parse.*;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -82,6 +79,7 @@ public class GcmIntentService extends IntentService {
                 }
                 Log.i(TAG, "Completed work @ " + SystemClock.elapsedRealtime());
                 // Post notification of received message.
+                Parse.initialize(this,Main.appId,Main.clientKey);
                 ParseQuery<ParseObject> query = ParseQuery.getQuery("test");
                 try {
                     ParseObject obj = query.get("i9pn40lR2z");
